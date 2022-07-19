@@ -48,3 +48,7 @@ main {
     padding: 0 1rem;
     max-width: 1024px;	
 }
+
+a {
+	color: #69c;
+}
