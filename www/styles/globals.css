@@ -52,3 +52,13 @@ main {
 a {
 	color: #69c;
 }
+
+code.block {
+	background: #f5f5f5;
+	padding: 1em 1.5em;
+}
+
+code.block ins {
+	display: block;
+	text-decoration: none;
+}
