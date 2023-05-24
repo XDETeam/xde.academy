@@ -37,6 +37,7 @@ const navigation = [
     links: [
       { title: 'Структуры данных', href: '/labs/data-structures' },
       { title: 'Linux', href: '/labs/linux' },
+      { title: 'Kubernetes', href: '/labs/kubernetes' },
     ],
   },
 ]
