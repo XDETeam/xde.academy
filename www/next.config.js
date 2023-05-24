@@ -1,16 +1,20 @@
+const withMarkdoc = require('@markdoc/next.js')
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
+	reactStrictMode: true,
+	pageExtensions: ["js", "jsx", "md"],
+	
+	output: 'export',
+	distDir: '.out',
 
-  output: "standalone",
-
-  pageExtensions: [ "page.tsx", "api.ts" ],
-
-  i18n: {
-    locales: ["en", "ru", "bg"],
-    defaultLocale: "en"
-  }
+	images: {
+		//TODO:Set temporary, otherwise export was not working
+		unoptimized: true,
+	},
+	experimental: {
+		scrollRestoration: true,
+	},
 }
 
-module.exports = nextConfig
+module.exports = withMarkdoc()(nextConfig)

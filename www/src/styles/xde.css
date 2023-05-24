@@ -1,0 +1,13 @@
+.xde-logo {
+    color: #000;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+html.dark .xde-logo {
+    color: #fff;
+}
+
+.xde-logo span {
+    @apply text-sky-500;
+}
