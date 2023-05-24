@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && wrangler pages publish out/ --project-name xde-academy"
+    "deploy": "next build && wrangler pages publish .out/ --project-name xde-academy"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {

@@ -18,22 +18,25 @@ const navigation = [
     ],
   },
   {
-    title: 'Программа',
-    links: [
-      { title: 'Self-engineering', href: '/program/self-engineering' },
-    ],
-  },
-  {
     title: 'Информатика',
     links: [
       { title: 'Формы данных', href: '/informatics/data-forms' },
-      { title: 'All-as-a-Code', href: '/informatics/all-as-a-code' }
+      { title: 'All-as-a-Code', href: '/informatics/all-as-a-code' },
+      { title: 'Язык Cx', href: '/informatics/cx-language' },
+    ],
+  },
+  {
+    title: 'Программа',
+    links: [
+      { title: 'Подготовка', href: '/program/start' },
+      { title: 'Self-engineering', href: '/program/self-engineering' },
     ],
   },
   {
     title: 'Лаборатории',
     links: [
       { title: 'Структуры данных', href: '/labs/data-structures' },
+      { title: 'Linux', href: '/labs/linux' },
     ],
   },
 ]
